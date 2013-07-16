@@ -1,87 +1,58 @@
 /* General */
 
-/**
- * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
- * http://cssreset.com
- */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-body {
-	line-height: 1;
-}
-
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 * {
 	background-color: darkgray;
 	color: white;
+	margin:0;
+	padding:0;
 }
 
 body {
 
+}
+
+/*Top header of the website*/
+
+header {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Sonsie One', cursive;
+	width:60%;
+	margin:0 auto;
+	padding-bottom:20px;
+	border-bottom: 2px solid white;
 }
 
 /* Navigation */
 
 nav {
-	margin-top:150px;
+	margin-top:80px;
 	padding-left:20%;
-	background-color:#333;
+	background-color:#3D464E;
 }
 
-nav a {
+nav ul {
 	display:inline-block;
-	background-color:#333;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin-left:-4px;
+}
+
+nav ul li a {
+	display:inline-block;
+	background-color:#4E5964;
 	padding:5px;
-	height:80px;
 	width:70px;
-	border-left:2px solid gray;
+	border-left:2px solid #3D464E;
+	padding-top:45px;
+	padding-bottom:45px;
 	transition: all 200ms ease-in;
 }
 
-nav a:hover {
+nav ul li a:hover {
 	background-color:#0f0;
 	width:120px;
 }
