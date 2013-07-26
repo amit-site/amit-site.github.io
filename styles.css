@@ -10,6 +10,7 @@
 
 body {
 	background: #23242C;
+	position:relative;
 }
 
 a {
@@ -113,6 +114,21 @@ header ul li {
 
 }
 
+.facebookicon {
+	border-radius:100px;
+	display:none;
+}
+
+.emailicon {
+	border-radius:100px;
+	display: none;
+}
+
+.linkedinicon {
+	border-radius:100px;
+	display:none;
+}
+
 /* ARTICLE */
 
 article {
@@ -133,4 +149,42 @@ article p {
 article p a {
 	display: inline-block;
 	padding-left: 20px;
+}
+
+@media screen and (max-width: 660px) {
+	.facebook {
+		margin-right:9999px;
+		overflow:hidden;
+	}
+
+	.facebookicon {
+		display:inline-block;
+		position:absolute;
+		top:40px;
+		right:100px;
+	}
+
+	.email {
+		margin-right:999px;
+		overflow:hidden;
+	}
+
+	.emailicon {
+		display:inline-block;
+		position:absolute;
+		top:40px;
+		right:50px;
+	}
+
+	.linkedin {
+		margin-right:9999px;
+		overflow:hidden;
+	}
+
+	.linkedinicon {
+		display:inline-block;
+		position:absolute;
+		top:40px;
+		right:0px;
+	}
 }
