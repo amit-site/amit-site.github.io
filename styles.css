@@ -51,7 +51,7 @@ body.home{
 
 .home .slideshow {
 	height: 100%;
-	background: url(quotebg-1.jpg) no-repeat 0 -50px;
+	background: url(img/quotebg-1.jpg) no-repeat 0 -50px;
 	background-size: 1280px;
 	background-attachment: fixed;
 	height: 451px;
@@ -95,7 +95,7 @@ header h1:before {
 	height: 75px;
 	border: 2px solid #23242C;
 	border-radius: 50px;
-	background: url(amit.jpg) no-repeat 0 0;
+	background: url(img/amit.jpg) no-repeat 0 0;
 	background-size: 100%;
 }
 
