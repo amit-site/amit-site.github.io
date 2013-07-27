@@ -114,20 +114,11 @@ header ul li {
 
 }
 
-.facebookicon {
+.icon {
 	border-radius:100px;
 	display:none;
 }
 
-.emailicon {
-	border-radius:100px;
-	display: none;
-}
-
-.linkedinicon {
-	border-radius:100px;
-	display:none;
-}
 
 /* ARTICLE */
 
@@ -152,15 +143,19 @@ article p a {
 }
 
 @media screen and (max-width: 660px) {
+
+	.icon {
+		display:inline-block;
+		position:absolute;
+		bottom:40px;
+	}
+
 	.facebook {
 		margin-right:9999px;
 		overflow:hidden;
 	}
 
 	.facebookicon {
-		display:inline-block;
-		position:absolute;
-		top:40px;
 		right:100px;
 	}
 
@@ -170,9 +165,6 @@ article p a {
 	}
 
 	.emailicon {
-		display:inline-block;
-		position:absolute;
-		top:40px;
 		right:50px;
 	}
 
@@ -182,9 +174,6 @@ article p a {
 	}
 
 	.linkedinicon {
-		display:inline-block;
-		position:absolute;
-		top:40px;
 		right:0px;
 	}
 }
