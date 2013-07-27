@@ -52,6 +52,7 @@ body.home{
 	transition: all .2s ease-out;
 	-webkit-transition: all .2s ease-out;
 	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
 }
 
 .home nav ul li:hover {
@@ -93,6 +94,7 @@ header {
 header h1 {
 	display: inline-block;
 	padding: 29.5px;
+	padding-right: 0;
 	padding-left: 100px;
 	margin-left: 10px;
 	font-size: 36px;
@@ -113,6 +115,10 @@ header h1:before {
 	background-size: 100%;
 }
 
+header span {
+	font-size: 40px;
+}
+
 header ul {
 	position: absolute;
 	right: 10px;
@@ -129,6 +135,7 @@ header ul li {
 	transition: all .2s ease-out;
 	-webkit-transition: all .2s ease-out;
 	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
 }
 
 header ul li:hover {
@@ -143,27 +150,27 @@ header figure {
 }
 
 .facebookicon {
-	background: url("img/light/png/facebook.png");
+	background: url("img/light/png/facebook.png") no-repeat;
 }
 
 .emailicon {
-	background: url("img/light/png/mail.png");
+	background: url("img/light/png/mail.png") no-repeat;
 }
 
 .linkedinicon {
-	background: url("img/light/png/linkedin.png");
+	background: url("img/light/png/linkedin.png") no-repeat;
 }
 
 .facebookicon:hover {
-	background: url("img/dark/png/facebook.png");
+	background: url("img/dark/png/facebook.png") no-repeat;
 }
 
 .emailicon:hover {
-	background: url("img/dark/png/mail.png");
+	background: url("img/dark/png/mail.png") no-repeat;
 }
 
 .linkedinicon:hover {
-	background: url("img/dark/png/linkedin.png");
+	background: url("img/dark/png/linkedin.png") no-repeat;
 }
 
 /* ARTICLE */
