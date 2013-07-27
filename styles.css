@@ -114,19 +114,35 @@ header ul li {
 
 }
 
-.facebookicon {
+header figure {
+	width: 32px;
+	height: 32px;
 	border-radius:100px;
 	display:none;
+}
+
+.facebookicon {
+	background: url("img/light/png/facebook.png");
 }
 
 .emailicon {
-	border-radius:100px;
-	display: none;
+	background: url("img/light/png/mail.png");
 }
 
 .linkedinicon {
-	border-radius:100px;
-	display:none;
+	background: url("img/light/png/linkedin.png");
+}
+
+.facebookicon:hover {
+	background: url("img/dark/png/facebook.png");
+}
+
+.emailicon:hover {
+	background: url("img/dark/png/mail.png");
+}
+
+.linkedinicon:hover {
+	background: url("img/dark/png/linkedin.png");
 }
 
 /* ARTICLE */
@@ -151,40 +167,54 @@ article p a {
 	padding-left: 20px;
 }
 
+ /* Responsive Design */
+
 @media screen and (max-width: 660px) {
-	.facebook {
+	body.home header ul li {
 		margin-right:9999px;
-		overflow:hidden;
+		overflow: hidden;
+	}
+
+	body.home header ul li figure {
+		display: inline-block;
+		position: absolute;
+		bottom: 5px;
 	}
 
 	.facebookicon {
-		display:inline-block;
-		position:absolute;
-		top:40px;
-		right:100px;
-	}
-
-	.email {
-		margin-right:999px;
-		overflow:hidden;
+		right: 100px;
 	}
 
 	.emailicon {
-		display:inline-block;
-		position:absolute;
-		top:40px;
-		right:50px;
-	}
-
-	.linkedin {
-		margin-right:9999px;
-		overflow:hidden;
+		right: 50px;
 	}
 
 	.linkedinicon {
-		display:inline-block;
-		position:absolute;
-		top:40px;
-		right:0px;
+		right: 0px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	body.home header ul li figure {
+		bottom: -25px;
+		width: 20px;
+		height: 20px;
+		background-size: 100%;
+	}
+	
+	body.home header ul li figure:hover {
+		background-size: 100%;
+	}
+
+	.facebookicon {
+		right: 60px;
+	}
+
+	.emailicon {
+		right: 30px;
+	}
+
+	.linkedinicon {
+		right: 0px;
 	}
 }
