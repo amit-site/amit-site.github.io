@@ -18,15 +18,14 @@ a {
 	color: inherit;
 }
 
-/* HOME */
+/* HOMEPAGE */
 
 body.home{
 	background-color: #FF7849;
 }
 
-.home header {
-	background: white;
-}
+
+/* NAVIGATION */
 
 .home nav {
 	width: 100%;
@@ -39,15 +38,25 @@ body.home{
 	height: 30px;
 	text-align: center;
 	background: #FF7849;
+	font-size: 0px;
 }
 
 .home nav ul li {
+	font-size: 16px;
 	display: inline-block;
 	color: white;
 	margin: 3px 10px;
 	padding: 2px 10px;
 	border-radius: 5px;
 	background: #23242C;
+	transition: all .2s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+}
+
+.home nav ul li:hover {
+	color: #23242C;
+	background: white;
 }
 
 .home .slideshow {
@@ -69,6 +78,10 @@ body.home{
 }
 
 /* HEADER */
+
+.home header {
+	background: white;
+}
 
 header {
 	background: #FF7849;
@@ -106,12 +119,20 @@ header ul {
 	display: inline-block;
 	list-style-type: none;
 	bottom: 30px;
+	font-size: 0px;
 }
 
 header ul li {
 	display: inline-block;
 	padding: 10px;
+	font-size: 16px;
+	transition: all .2s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+}
 
+header ul li:hover {
+	color: #FF7849;
 }
 
 header figure {
