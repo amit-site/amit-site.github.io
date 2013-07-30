@@ -5,6 +5,14 @@
 	<title>Amit Joshipura</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="anythingslider.css">
+	<script type="text/javascript" src="javascripts/main.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function () {
+		  $('.Carousel').infiniteCarousel();
+		});;
+	</script>
 </head>
 <body class="home">
 	<header>
@@ -32,8 +40,42 @@
 		</ul>
 	</nav>
 
-	<div class="slideshow">
-		<div class="quote"><q>Be the change you want to see in the world.</q><br> - Mahatma Gandhi</div>
-	</div>
+	<div class="Carousel">
+      <!-- <div class="wrapper"> -->
+        <ul>
+        	<li class="cloned">
+        		<img src="img/carousel/gameplay1.jpg" height="125" width="250" alt="Final Fantasy Gameplay">
+        	</li>
+        	<li class="empty cloned"></li>
+        	<li>
+        		<img src="img/carousel/gameplay2.jpg" height="125" width="250" alt="Final Fantasy Gameplay">
+        	</li>
+        	<li class="empty cloned"></li>
+        	<li>
+        		<img src="img/carousel/gameplay3.jpg" height="125" width="250" alt="Final Fantasy Gameplay">
+        	</li>
+           	<li class="empty cloned"></li>
+        	<li>
+        		<img src="img/carousel/gameplay4.jpg" height="125" width="250" alt="Final Fantasy Gameplay">
+        	</li>
+           	<li class="empty cloned"></li>
+        	<li>
+        		<img src="img/carousel/gameplay5.jpg" height="125" width="250" alt="Final Fantasy Gameplay">
+        	</li>
+           	<li class="empty cloned"></li>
+        	<li>
+        		<img src="img/carousel/gameplay6.jpg" height="125" width="250" alt="Final Fantasy Gameplay">
+        	</li>
+        	<li class="empty cloned"></li>
+         	<li>
+         		<img src="img/carousel/gameplay7.jpg" height="125" width="250" alt="Final Fantasy Gameplay">
+         	</li>
+        	<li class="empty"></li>
+        	<li class="cloned">
+        		<img src="img/carousel/gameplay8.jpg" height="125" width="250" alt="Final Fantasy Gameplay">
+        	</li>
+        </ul>        
+      </div>
+    </div>
 </body>
 </html>

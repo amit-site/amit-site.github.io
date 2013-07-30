@@ -43,15 +43,15 @@ body.home{
 	background: #FF7849;
 }
 
-.home .slideshow {
+.home #slider {
 	height: 100%;
-	background: url(quotebg-1.jpg) no-repeat 0 -50px;
-	background-size: 1280px;
-	background-attachment: fixed;
-	height: 451px;
+	/*background: url(quotebg-1.jpg) no-repeat 0 -50px;*/
+	/*background-size: 1280px;*/
+	/*background-attachment: fixed;*/
+	/*height: 451px;*/
 }
 
-.home .slideshow .quote {
+.home #slider .sliderimg {
 	position: absolute;
 	right: 0;
 	width: 300px;
