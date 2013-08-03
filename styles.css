@@ -10,7 +10,7 @@
 
 body {
 	background: #23242C;
-	position:relative;
+	position: relative;
 }
 
 a {
@@ -122,9 +122,9 @@ header span {
 header ul {
 	position: absolute;
 	right: 10px;
+	bottom: 30px;
 	display: inline-block;
 	list-style-type: none;
-	bottom: 30px;
 	font-size: 0px;
 }
 
@@ -142,11 +142,13 @@ header ul li:hover {
 	color: #FF7849;
 }
 
+/* Social Media Icons */
+
 header figure {
 	width: 32px;
 	height: 32px;
-	border-radius:100px;
-	display:none;
+	border-radius: 100px;
+	display: none;
 }
 
 .facebookicon {
@@ -173,7 +175,7 @@ header figure {
 	background: url("img/dark/png/linkedin.png") no-repeat;
 }
 
-/* ARTICLE */
+/* ARTICLE PAGE */
 
 article {
 	margin: 50px auto;
@@ -199,7 +201,7 @@ article p a {
 
 @media screen and (max-width: 660px) {
 	body.home header ul li {
-		margin-right:9999px;
+		margin-right: 9999px;
 		overflow: hidden;
 	}
 
