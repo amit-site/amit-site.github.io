@@ -68,8 +68,8 @@ body.home{
 	height: 451px;
 }
 
-.home .slideshow .quote {
-	position: absolute;
+.home .slideshow .slides {
+	position: relative;
 	right: 0;
 	width: 300px;
 	padding: 10px;
