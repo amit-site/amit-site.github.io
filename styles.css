@@ -178,8 +178,10 @@ header figure {
 /* ARTICLE PAGE */
 
 article {
-	margin: 50px auto;
+	margin: 20px auto;
+	margin-bottom: 0;
 	padding: 20px;
+	padding-bottom: 0;
 	max-width: 800px;
 }
 
@@ -231,6 +233,12 @@ article ul {
 	.linkedinicon {
 		right: 0px;
 	}
+	.expbody article h2 {
+		font-size: 18px;
+	}
+	.expbody article {
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 540px) {
@@ -255,5 +263,40 @@ article ul {
 
 	.linkedinicon {
 		right: 0px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.expbody h1, .newsbody h1 {
+		font-size: 26px;
+		padding: 34.5px 0 34.5px 100px;
+	}
+	.expbody span, .newsbody span {
+		font-size: 26px;
+	}
+	.newsbody article h2 {
+		font-size: 20px;
+	}
+	.newsbody article p {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.expbody header h1 {
+		padding-left: 10px;
+		font-size: 18px;
+	}
+	.expbody header span {
+		font-size: 18px;
+	}
+	.home header h1, .newsbody header h1 {
+		padding-left: 34.5px;
+	}
+	h1:before {
+		display: none;
+	}
+	.newsbody article p:last-child {
+		display: none;
 	}
 }
