@@ -303,8 +303,10 @@ article ul {
 }
 
 @media screen and (max-width: 440px) {
+	.home nav ul {
+		padding: 10px;
+	}
 	.home nav ul li {
 		font-size: 12px;
-		padding: 10px;
 	}
 }
