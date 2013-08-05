@@ -42,7 +42,7 @@ body.home{
 	font-size: 0px;
 }
 
-.home nav ul li {
+.home nav li {
 	font-size: 16px;
 	display: inline-block;
 	color: white;
@@ -303,13 +303,9 @@ article ul {
 }
 
 @media screen and (max-width: 440px) {
-	body.home nav ul {
-		padding: 10px;
-		padding-bottom: 0;
-	}
 	body.home nav ul li {
 		font-size: 12px;
-		padding: 2px 6px;
-		margin: 3px 6px;
+		padding: 2px 5px;
+		margin: 3px 5px;
 	}
 }
