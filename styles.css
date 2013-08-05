@@ -210,6 +210,22 @@ article ul {
 
  /* Responsive Design */
 
+@media screen and (max-width: 900px) {
+	.expbody h1, .newsbody h1 {
+		font-size: 26px;
+		padding: 34.5px 0 34.5px 100px;
+	}
+	.expbody span, .newsbody span {
+		font-size: 26px;
+	}
+	.newsbody article h2 {
+		font-size: 20px;
+	}
+	.newsbody article p {
+		font-size: 15px;
+	}
+}
+
 @media screen and (max-width: 660px) {
 	body.home header ul li {
 		margin-right: 9999px;
@@ -263,22 +279,6 @@ article ul {
 
 	.linkedinicon {
 		right: 0px;
-	}
-}
-
-@media screen and (max-width: 900px) {
-	.expbody h1, .newsbody h1 {
-		font-size: 26px;
-		padding: 34.5px 0 34.5px 100px;
-	}
-	.expbody span, .newsbody span {
-		font-size: 26px;
-	}
-	.newsbody article h2 {
-		font-size: 20px;
-	}
-	.newsbody article p {
-		font-size: 15px;
 	}
 }
 
