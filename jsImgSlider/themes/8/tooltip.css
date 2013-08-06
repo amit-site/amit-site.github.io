@@ -13,8 +13,8 @@ div#mcTooltip
     padding:6px 9px;
     font-size: 12px;
     font-family: Verdana, Arial;
-    border-radius:4px; /*Rounded corners. N/A for IE 8 and below.*/
-    box-shadow: 0 1px 6px #CCC; /*Drop shadow. N/A for IE 8 and below.*/
+    border-radius:4px;
+    box-shadow: 0 1px 6px #CCC;
 }
 
 div#mcTooltip, div.mcTooltipInner 
