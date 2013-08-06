@@ -61,14 +61,10 @@ body.home{
 	background: white;
 }
 
-.home .slider {
-	height: 100%;
-	background: url(img/quotebg-1.jpg) no-repeat 0 -50px;
-	background-size: 1280px;
-	background-attachment: fixed;
-	height: 451px;
+.home #slider {
+	margin-top: 30px;
 }
-
+/*
 .home .slider img {
 	position: relative;
 	right: 0;
@@ -77,7 +73,7 @@ body.home{
 	margin: 20px;
 	border-radius: 5px;
 	background-color: white;
-}
+}*/
 
 /* HEADER */
 
