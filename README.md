@@ -1,3 +1,3 @@
-Amit's Website
+Amit Joshipura's Website
 ==================
-Grant Campfield, Ethan Niu, Michael Noronha, Chris Dalloul, Nihar Sheth
+Grant Campfield, Ethan Niu, Michael Noronha, Nihar Sheth
