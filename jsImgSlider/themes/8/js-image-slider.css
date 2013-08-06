@@ -1,6 +1,6 @@
-/* http://www.menucool.com */
 
-#sliderFrame {position:relative;width:700px;margin: 0 auto;} /*remove the "margin:0 auto;" if you want to align the whole slider to the left side*/
+
+#sliderFrame {position:relative;width:700px;margin: 0 auto;}
         
 #slider {
     width:700px;height:306px;/* Make it the same size as your images */
