@@ -210,6 +210,10 @@ article p a {
 	padding-left: 20px;
 }
 
+article p a:hover {
+	text-decoration: underline;
+}
+
 article ul {
 	list-style-type: square;
 }
