@@ -1,3 +1,3 @@
 Amit Joshipura's Website
 ==================
-Grant Campfield, Ethan Niu, Michael Noronha, Nihar Sheth
+Contributed to by: Grant Campfield, Ethan Niu, Michael Noronha, Nihar Sheth
