@@ -27,7 +27,7 @@ function mcImgSlider(k) {
                 c = [];
             if (a) for (var b = 0, f = a[d]; b < f; b++) a[b].nodeType == 1 && c.push(a[b]);
             return c
-        },
+        }
         l = "className",
         m = "getAttribute",
         f = "opacity",
