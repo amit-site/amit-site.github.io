@@ -225,12 +225,15 @@ article ul {
 		font-size: 26px;
 		padding: 34.5px 0 34.5px 100px;
 	}
+	
 	.expbody span, .newsbody span {
 		font-size: 26px;
 	}
+	
 	.newsbody article h2 {
 		font-size: 20px;
 	}
+	
 	.newsbody article p {
 		font-size: 15px;
 	}
@@ -259,9 +262,11 @@ article ul {
 	.linkedinicon {
 		right: 0px;
 	}
+	
 	.expbody article h2 {
 		font-size: 18px;
 	}
+	
 	.expbody article {
 		font-size: 14px;
 	}
@@ -297,15 +302,19 @@ article ul {
 		padding-left: 10px;
 		font-size: 18px;
 	}
+	
 	.expbody header span {
 		font-size: 18px;
 	}
+	
 	.home header h1, .newsbody header h1 {
 		padding-left: 34.5px;
 	}
+	
 	h1:before {
 		display: none;
 	}
+	
 	.newsbody article p:last-child {
 		display: none;
 	}
