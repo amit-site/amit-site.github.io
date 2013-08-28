@@ -295,12 +295,15 @@ a.cover:hover .hidden {
 		font-size: 26px;
 		padding: 34.5px 0 34.5px 100px;
 	}
+	
 	.expbody span, .newsbody span {
 		font-size: 26px;
 	}
+	
 	.newsbody article h2 {
 		font-size: 20px;
 	}
+	
 	.newsbody article p {
 		font-size: 15px;
 	}
@@ -329,9 +332,11 @@ a.cover:hover .hidden {
 	.linkedinicon {
 		right: 0px;
 	}
+	
 	.expbody article h2 {
 		font-size: 18px;
 	}
+	
 	.expbody article {
 		font-size: 14px;
 	}
@@ -367,6 +372,7 @@ a.cover:hover .hidden {
 		text-align: center;
 		margin-left: -40px;
 	}
+<<<<<<< HEAD
 
 	header h1 {
 		font-size: 28px;
@@ -375,11 +381,21 @@ a.cover:hover .hidden {
 		font-size: 28px;
 	}
 	header h1 {
+=======
+	
+	.expbody header span {
+		font-size: 18px;
+	}
+	
+	.home header h1, .newsbody header h1 {
+>>>>>>> ff0d5d166c2286fd7dca28dba6a8d05eaa2dade7
 		padding-left: 34.5px;
 	}
+	
 	h1:before {
 		display: none;
 	}
+	
 	.newsbody article p:last-child {
 		display: none;
 	}

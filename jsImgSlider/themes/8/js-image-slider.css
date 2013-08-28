@@ -1,6 +1,8 @@
-
-
-#sliderFrame {position:relative;width:700px;margin: 0 auto;}
+#sliderFrame {
+	position:relative;
+	width:700px;
+	margin: 0 auto;
+}
         
 #slider {
     width:650px;height:366px;/* Make it the same size as your images */
@@ -9,14 +11,15 @@
 	margin:0 auto;/*make the image slider center-aligned */
     box-shadow: 0px 1px 5px #999999;
 }
+
 #slider img, #slider>b, #slider a>b{
 	position:absolute;
 	border:none;
 	display:none;
 }
+
 #slider>a {display:none;}
 
-/* the link style (if an image is wrapped in a link) */
 #slider a.imgLink {
 	z-index:2;
 	position:absolute;
@@ -24,7 +27,7 @@
 	width:100%;height:100%;
 }
 
-/* Caption styles */
+/*Styles for captions*/
 div.mc-caption-bg, div.mc-caption-bg2 {
 	position:absolute;
 	width:440px;
@@ -36,14 +39,17 @@ div.mc-caption-bg, div.mc-caption-bg2 {
 	overflow:hidden;
 	font-size: 0;
 }
+
 div.mc-caption-bg {
 	background-color:black;
 	border:1px solid white;
 	border-radius: 5px;
 }
+
 div.mc-caption-bg2 {
     background:none;
 }
+
 div.mc-caption {
 	font:bold 15px Arial;
 	color:#EEE;
@@ -52,13 +58,14 @@ div.mc-caption {
 	text-align:center;
     background:none;
 }
+
 div.mc-caption a {
 	color:#FB0;
 }
+
 div.mc-caption a:hover {
 	color:#DA0;
 }
-
 
 /* ------ built-in navigation bullets wrapper ------*/
 div.navBulletsWrapper  {
@@ -82,8 +89,9 @@ div.navBulletsWrapper div
     margin:0 6px;/* set distance between each bullet*/
 }
 
-div.navBulletsWrapper div.active {background-position:0 -11px;}
-
+div.navBulletsWrapper div.active {
+	background-position:0 -11px;
+}
 
 /* --------- Others ------- */
 #slider 
