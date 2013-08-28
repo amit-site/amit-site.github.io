@@ -218,6 +218,76 @@ article ul {
 	list-style-type: square;
 }
 
+/* Book Page */
+
+.array {
+	width: 80%;
+	margin: 20px auto;
+	color: white;
+	text-align: center;
+}
+
+.cover {
+	display: inline-block;
+	width: 320px;
+	height: 480px;
+	background: orange;
+	vertical-align: top;
+	margin: 1px -1.5px;
+}
+
+.cover .hidden {
+	transition: all 2s ease-out;
+	-webkit-transition: all 2s ease-out;
+	-moz-transition: all 2s ease-out;
+	-o-transition: all 2s ease-out;
+	display: none;
+	text-align: center;
+	padding-top: 200px;
+	width: 320px;
+	height: 280px;
+	background-color: rgba(90,90,100,.95);
+}
+
+a.cover:hover .hidden {
+	display: inline-block;
+}
+
+.givetake {
+	background: black url(covers/giveandtake.jpg) 0 0;
+	background-size: 100%;
+}
+
+.happy {
+	background: black url(covers/happyfornoreason.jpg) 0 0;
+	background-size: 100%;
+}
+
+.alchemist {
+	background: black url(covers/thealchemist.jpg) 0 0;
+	background-size: 100%;
+}
+
+.halo {
+	background: black url(covers/thehaloeffect.jpg) 0 0;
+	background-size: 100%;
+}
+
+.hungergames {
+	background: black url(covers/thehungergames.jpg) 0 0;
+	background-size: 100%;
+}
+
+.scienceofhappy {
+	background: black url(covers/thescienceofhappiness.jpg) 0 0;
+	background-size: 100%;
+}
+
+.wellbeing {
+	background: black url(covers/wellbeing.jpg) 0 0;
+	background-size: 100%;
+}
+
  /* Responsive Design */
 
 @media screen and (max-width: 900px) {
@@ -293,14 +363,18 @@ article ul {
 }
 
 @media screen and (max-width: 500px) {
-	.expbody header h1 {
-		padding-left: 10px;
-		font-size: 18px;
+	header {
+		text-align: center;
+		margin-left: -40px;
 	}
-	.expbody header span {
-		font-size: 18px;
+
+	header h1 {
+		font-size: 28px;
 	}
-	.home header h1, .newsbody header h1 {
+	header span {
+		font-size: 28px;
+	}
+	header h1 {
 		padding-left: 34.5px;
 	}
 	h1:before {
